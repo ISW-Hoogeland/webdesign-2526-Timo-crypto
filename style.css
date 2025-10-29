@@ -1,15 +1,53 @@
+:root {
+    --bg-light: #f9fffb;
+    --text-dark: #2c3e50;
+    --font-main: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+
+    --h1-bg: #C1ECAF;
+    --h1-text: #000000;
+    --h2-text: #74A9CB;
+    --h2-border: var(--h1-bg);
+    --h3-text: #D67160;
+
+    --list-bg: #e8f8f0;
+    --list-border: #A1D69A;
+    --strong-text: var(--h3-text);
+    --code-bg: #f0f0f0;
+
+    --def-bg: #e7f2f8;
+    --def-border: var(--h1-bg);
+    --def-title: var(--text-dark);
+
+    --nav-bg: var(--h2-text);
+    --nav-text: var(--code-bg);
+
+    --footer-bg: var(--h1-bg); 
+    --footer-text: var(--h1-text);
+}
+
+
 body {
   display: grid;
   grid-template-areas:
   "header header"
   "nav main"
   "footer footer";
-  grid-template-columns: 140px 1fr;
-  grid-template-rows: 120px 1fr 60px
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 120px 1fr 60px;
+  background-color: var(--def-bg);
+    font-family: var(--font-main);
 }
 
 header {
   grid-area: header;
+}
+
+h1 {
+  color: var(--h1-text);
+  
+h2 {
+  color: var(--h2-text);
+ 
 }
 
 nav {

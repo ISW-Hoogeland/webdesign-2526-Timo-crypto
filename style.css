@@ -5,7 +5,7 @@
 
     --h1-bg: #C1ECAF;
     --h1-text: #000000;
-    --h2-text: #74A9CB;
+    --h2-text: #035283;
     --h2-border: var(--h1-bg);
     --h3-text: #D67160;
 
@@ -32,8 +32,8 @@ body {
   "header header"
   "nav main"
   "footer footer";
-  grid-template-columns: 160px 1fr;
-  grid-template-rows: 120px 1fr 60px;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 1fr 60px;
   background-color: var(--def-bg);
     font-family: var(--font-main);
 }
@@ -44,6 +44,7 @@ header {
 
 h1 {
   color: var(--h1-text);
+}
   
 h2 {
   color: var(--h2-text);

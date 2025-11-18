@@ -7,14 +7,14 @@
     --h1-text: #000000;
     --h2-text: #035283;
     --h2-border: var(--h1-bg);
-    --h3-text: #D67160;
+    --h3-text: #404040;
 
     --list-bg: #e8f8f0;
     --list-border: #A1D69A;
     --strong-text: var(--h3-text);
     --code-bg: #f0f0f0;
 
-    --def-bg: #e7f2f8;
+    --def-bg: #b4e2fa;
     --def-border: var(--h1-bg);
     --def-title: var(--text-dark);
 
@@ -51,6 +51,10 @@ h2 {
  
 }
 
+h3 {
+color: var(--h3-text);
+
+}
 nav {
   grid-area: nav;
 }
